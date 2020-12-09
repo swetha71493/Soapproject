@@ -1,0 +1,69 @@
+Status: FAILED
+Time Taken: 98
+Size: 262
+Timestamp: Wed Dec 09 10:29:58 IST 2020
+TestStep: AddPlace
+
+----------------- Messages ------------------------------
+[Script Assertion] Cannot invoke method getPropertyValue() on null object
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://216.10.245.166
+Method: POST
+StatusCode: 200
+URL: http://216.10.245.166/maps/api/place/add/xml?key=%20qaclick123
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [216.10.245.166]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [429]
+Content-Type: [application/xml]
+
+POST http://216.10.245.166/maps/api/place/add/xml?key=%20qaclick123 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/xml
+Content-Length: 429
+Host: 216.10.245.166
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <location>
+        <lat>-38.383494</lat>
+        <lng>33.427362</lng>
+    </location>
+    <accuracy>50</accuracy>
+    <name>The Mens store</name>
+    <phone_number>(+91) 983 893 3937</phone_number>
+    <address>Anna Salai, Chennai</address>
+    <types>shoe park</types>
+    <types>kadai</types>
+    <website>http://google.com</website>
+    <language>tamil-IN</language>
+</root>
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=96]
+Transfer-Encoding: [chunked]
+Server: [Apache]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [POST]
+Connection: [Keep-Alive]
+#status#: [HTTP/1.1 200 OK]
+Access-Control-Max-Age: [3600]
+Date: [Wed, 09 Dec 2020 04:59:55 GMT]
+Access-Control-Allow-Headers: [Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With]
+Content-Type: [application/xml;charset=UTF-8]
+
+<response>
+   <status>OK</status>
+   <place_id>dc035b36d5926ae7fc2bac6928f857a4</place_id>
+   <scope>APP</scope>
+   <reference>a951369e0b58818fb4d0c9b821b1a6aca951369e0b58818fb4d0c9b821b1a6ac</reference>
+   <id>a951369e0b58818fb4d0c9b821b1a6ac</id>
+</response>

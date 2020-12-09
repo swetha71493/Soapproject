@@ -1,0 +1,6 @@
+2020-12-09 10:36:18,632 WARN  [SoapUI] Missing folder [C:\Users\SwethaNaiduGorthi\Desktop\API Testing\my-app\ext] for external libraries
+2020-12-09 10:36:18,879 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SwethaNaiduGorthi\soapui-settings.xml]
+2020-12-09 10:36:20,486 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SwethaNaiduGorthi/Desktop/API%20Testing/my-app/ShopingmockService-soapui-project.xml]
+2020-12-09 10:36:20,687 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [ShopingmockService]
+2020-12-09 10:36:20,692 INFO  [SoapUITestCaseRunner] Running Project [ShopingmockService], runType = SEQUENTIAL
+2020-12-09 10:36:20,700 INFO  [SoapUITestCaseRunner] Project [ShopingmockService] finished with status [FINISHED] in 0ms
